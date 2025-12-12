@@ -3,7 +3,6 @@ import random
 def hangman():
     words = ["apple", "tiger", "india", "chair", "robot"]
 
-    # Clues for each word
     clues = {
         "apple": "A fruit that keeps the doctor away.",
         "tiger": "A wild animal with black stripes.",
@@ -20,7 +19,7 @@ def hangman():
 
     print("💡 Welcome to Hangman Game!")
     print("Guess the word:")
-    print("🔍 CLUE:", clues[secret_word])    # <-- Showing clue
+    print("🔍 CLUE:", clues[secret_word])    
 
     while incorrect_guesses < max_attempts and "_" in guessed_word:
         print("\nCurrent word: ", " ".join(guessed_word))
