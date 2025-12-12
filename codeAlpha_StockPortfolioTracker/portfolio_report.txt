@@ -1,0 +1,6 @@
+STOCK PORTFOLIO REPORT
+
+AAPL: 3 shares → ₹540
+TSLA: 4 shares → ₹1000
+
+Total Investment: ₹1540
